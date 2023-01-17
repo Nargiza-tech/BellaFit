@@ -2,6 +2,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Josefin Sans';
+
 }
 
 .infoAuthorization{
@@ -13,7 +15,6 @@
 }
 
 .infoAuthorization-text p{
-    font-family: 'Josefin Sans';
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -24,7 +25,6 @@
 header{
     height: 76px;
     padding: 22px 0 22px 0;
-    font-family: 'Josefin Sans';
 
 }
 
@@ -32,14 +32,9 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-around;
-
     font-weight: 400;
     font-size: 20px;
     line-height: 36px;
-
-
-    /* Black/Black */
-
     color: #100E18;
 }
 
@@ -91,7 +86,6 @@ main{
     margin-bottom: 60px;
 }
 .slider-text{
-    font-family: 'Josefin Sans';
     font-weight: 400;
     font-size: 24px;
     line-height: 36px;
@@ -105,7 +99,6 @@ main{
     gap: 10px;
     background: #FAFF05;
     margin-top: 60px;
-
     font-family: 'Bebas Neue';
     font-weight: 400;
     font-size: 20px;
@@ -170,8 +163,6 @@ main{
 }
 
 .subTitle{
-
-    font-family: 'Josefin Sans';
     font-weight: 500;
     font-size: 40px;
     line-height: 60px;
@@ -212,12 +203,11 @@ main{
     align-items: center;
     margin-top: 180px;
     height: 1000px;
-    /*background: url("bgWoman.svg");*/
+    background: url("./images/bgWoman.svg");
 }
 
 
 .stretchText{
-    font-family: 'Josefin Sans';
     font-weight: 700;
     font-size: 36px;
     line-height: 40px;
@@ -229,7 +219,6 @@ main{
 
 .stretchSubText{
 
-    font-family: 'Josefin Sans';
     font-weight: 400;
     font-size: 18px;
     line-height: 32px;
@@ -246,7 +235,6 @@ main{
 }
 
 .pertSubtext{
-    font-family: 'Josefin Sans';
     font-weight: 400;
     font-size: 18px;
     line-height: 32px;
