@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.infoAuthorization{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    background: #FAFF05;
+}
+
+.infoAuthorization-text p{
+    font-family: 'Josefin Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #100E18;
+}
+
+header{
+    height: 76px;
+    padding: 22px 0 22px 0;
+    font-family: 'Josefin Sans';
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+
+
+    /* Black/Black */
+
+    color: #100E18;
+}
+
+
+ul li{
+    display: inline;
+    list-style: none;
+    margin-left: 70px;
+}
+
+
+nav div img{
+    margin-left: 36px;
+}
+
+
+
+main{
+    height: 960px;
+    background: #C4140F;
+}
+
+
+.main-text{
+    font-family: 'Bebas Neue';
+    width: 477px;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 80px;
+    letter-spacing: 0.15em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+
+.hr{
+    border: 1px solid #FAFF05;
+    width: 50px;
+   opacity: 0.4;
+}
+.slider-text{
+    font-family: 'Josefin Sans';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+
