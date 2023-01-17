@@ -131,6 +131,7 @@ main{
     position: absolute;
     left: 14.5%;
     top: 47%;
+    width: calc(100% - 395px);
 }
 
 
@@ -200,7 +201,7 @@ main{
     justify-content: center;
     align-items: center;
     margin-top: 180px;
-    height: 1000px;
+    height: 10%;
     background: url("./images/bgWoman.svg");
 }
 
