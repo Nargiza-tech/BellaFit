@@ -60,25 +60,37 @@ nav div img{
 main{
     height: 960px;
     background: #C4140F;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
+
+/*.main-block{*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    */
+/*}*/
 
 
 .main-text{
     font-family: 'Bebas Neue';
-    width: 477px;
+    max-width: 477px;
     font-weight: 400;
     font-size: 64px;
     line-height: 80px;
     letter-spacing: 0.15em;
     text-transform: capitalize;
-    color: #FFFFFF;
+    color: #ffffff;
 }
+
 
 
 .hr{
     border: 1px solid #FAFF05;
     width: 50px;
-   opacity: 0.4;
+    opacity: 0.4;
+    margin-bottom: 60px;
 }
 .slider-text{
     font-family: 'Josefin Sans';
@@ -86,6 +98,97 @@ main{
     font-size: 24px;
     line-height: 36px;
     color: #FFFFFF;
+    margin-bottom: 60px;
+}
+
+.btnStart{
+    border: none;
+    padding: 20px 60px;
+    gap: 10px;
+    background: #FAFF05;
+    margin-top: 60px;
+
+    font-family: 'Bebas Neue';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: 5px;
+    text-transform: capitalize;
+    color: #100E18;
+}
+
+.positionImages{
+   position: relative;
+    top: 40px;
+}
+
+.bgWomen{
+    margin-top: 140px;
+
+
+}
+
+
+.women{
+
+    position: absolute;
+    left: 70px;
+    z-index: 1;
+
+}
+
+
+
+.aboutBlock{
+    padding-top: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.aboutUs{
+
+    max-width: 1324px;
+    text-align: center;
+
+}
+
+.aboutUs h1{
+    font-family: 'Bebas Neue';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 40px;
+    letter-spacing: 0.15em;
+    text-transform: capitalize;
+    color: #8A8A8A;
+    margin-bottom: 50px;
+}
+
+.subTitle{
+
+    font-family: 'Josefin Sans';
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+    color: #100E18;
+}
+
+
+.btnShop{
+    margin-top: 50px;
+    width: 264px;
+    height: 76px;
+    background: #FAFF05;
+    border: none;
+    font-family: 'Bebas Neue';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: 5px;
+    text-transform: capitalize;
+    color: #100E18;
+
 }
 
 
