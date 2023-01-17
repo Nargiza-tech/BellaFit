@@ -252,3 +252,24 @@ main{
 .color{
     color: #100E18;
 }
+
+.start{
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 350px;
+    font-family: 'Bebas Neue';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: 5px;
+    text-transform: capitalize;
+    color: #C4140F;
+    text-align: center;
+}
+
+.pl{
+    padding-left: 15px;
+}
