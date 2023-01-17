@@ -59,6 +59,7 @@ main{
     align-items: center;
     justify-content: space-between;
     padding: 0 300px  0 140px;
+    position: relative;
 
 }
 
@@ -74,9 +75,7 @@ main{
     color: #ffffff;
 }
 
-.fitnessPar{
-    position: relative;
-}
+
 
 
 .hr{
@@ -130,8 +129,8 @@ main{
 
 .fitness{
     position: absolute;
-    left: 135px;
-    top: 242px;
+    left: 277px;
+    top: 456px;
 }
 
 
